@@ -1,0 +1,326 @@
+@media screen and (max-width: 1600px){
+    .sub_coolers{
+        padding-right: 5%;
+        padding-left: 4%;
+    }
+    .sub_drinkware{
+        padding-left: 4%;
+        padding-right: 5%;
+    }
+    .sub_bags{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .sub_gear{
+        padding-right: 10%;
+        padding-left: 11%;
+    }
+    .sub_custom{
+        padding-right: 10%;
+        padding-left: 14%;
+    }
+    .list_sub_wrapper{
+        width: 75%;
+    }
+} 
+@media screen and (max-width: 1280px){
+    .search_cart{
+        width: 175px;
+    }
+    .wrapper_footer{
+        width: 90%;
+    }
+    .heading{
+        margin-left: 31.5%;
+    }
+    .dots{
+        margin-left: 51%;
+    }
+    .list_sub_wrapper{
+        margin-left: 5px;
+    }
+    .second_section, .third_section, .fourth_section, .fifth_section{
+        height: 294px;
+        padding-top: 60px;
+        font-size: 95%;
+    }
+    .sub_custom{
+        padding-left: 18%;    
+    }
+    .wrapper_bottom{
+        width: 90%;
+    }  
+}
+@media screen and (max-width: 1024px){ 
+    .gif_container{
+        visibility: hidden;
+    }
+    .wrapper_head{
+        background-image: url(https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dwbb7dd872/images/homepage/2020/7-5-20-Panga-Bags-Spotlight/200437-Panga-Dry-Bags-HomepageHero-1600x550-GIF.gif);
+        background-size: 100% 100%;
+    }
+    #header_top, #wrapper_menu_container{
+        background-color: #292d31;
+    }
+    .wrapper_main_slider{
+        margin-bottom: 0;
+    }
+    .main_products h2{
+        font-size: 90%;
+    }
+    .search_span{
+        display: none;
+    }
+    .search_cart{
+        width: 85px;
+    }
+    .wrapper_orders div:nth-of-type(n){
+        width: 100%; 
+        height: 480px;
+    }
+    .wrapper_orders section:nth-of-type(n){
+        height: 100%;
+    }
+    .second_section, .third_section, .fourth_section, .fifth_section{
+        padding-top: 165px;
+    }
+    .sixth_section{
+        padding-top: 20px;
+    }
+    .list_sub_wrapper{
+        width: 85%;
+    }
+}  
+@media screen and (max-width: 930px){
+    .sign_up{
+        flex-direction: column;   
+    }
+    #sign_up_form {
+        width: 75%;
+        padding-top: 20px;
+    }
+    .footer_list i{
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+    }
+    .footer_sub_ul{
+        display: none;
+    }
+    .footer_sub_ul li{
+        padding-bottom: 7px;
+    }
+    .footer_li_elem a:hover{
+        color: #a89968;
+    }
+    .footer_sub_ul li:nth-of-type(6),.footer_sub_ul li:last-of-type {
+        display: none;
+    }
+    .footer_list{
+        flex-direction: column;
+    }
+    .footer_main_li{
+        position: relative;
+        padding-bottom: 20px;  
+        padding-top: 15px;
+        border-bottom: .7px solid rgba(255, 255, 255, 0.432);
+    }
+    .flag_icon, .right_part{
+        display: none;
+    }
+    #header_top{
+        padding-bottom: 5px;
+        background-color: #aa9666;
+    }
+    #menu_bars{
+        display: inline-block;
+    }
+    .list_sub_wrapper{
+        display: none;
+        margin-top: 45px;
+        width: 50%;
+    }
+    .list_container{
+        justify-content: flex-end;
+    }
+    .logo{
+        max-height: 60px;
+    }
+    #coolers, #drinkware, #bags, #gear, #custom, #yeti{
+        display: inline-block;
+        margin-left: 10px;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        transform: rotateZ(-45deg);
+        -webkit-transform: rotateZ(-45deg);
+        -moz-transform: rotateZ(-45deg);
+        -ms-transform: rotateZ(-45deg);
+        -o-transform: rotateZ(-45deg);
+    }
+    .li_coolers:hover, .li_custom:hover, .li_gear:hover, .li_drinkware:hover, .li_bags:hover, .li_yeti:hover, .li_sales:hover, .li_arrivals:hover{
+        border-bottom: none;
+    }
+    .li_coolers:hover .sub_coolers, .li_custom:hover .sub_custom, .li_gear:hover .sub_gear, .li_drinkware:hover .sub_drinkware, .li_bags:hover .sub_bags, .li_yeti:hover .sub_yeti{
+        display: none;  
+    }
+    .li_heading {
+        margin-bottom: 25px;    
+    }
+    .menu_img_section{
+        display: none;
+    }
+    #yeti_list, #custom_list, #gear_list, #bags_list, #drinkware_list, #coolers_list{
+        z-index: 10;
+    }
+    .li_sales:hover, .li_arrivals:hover{
+        color: rgb(175, 162, 88);
+    }
+    .sub_yeti, .sub_custom, .sub_gear, .sub_drinkware, .sub_bags, .sub_coolers {
+        margin-left: -50%;   
+        width: 108%;    
+    }
+    .li_elem{
+        padding-left: 30px;
+    }
+    .li_heading{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .heading{
+        margin-left: 20.5%;
+    }
+    #slider_main_products{
+        width: 300%;
+        padding-left: 0;
+    }
+    #firstPage{
+        width: 45%;
+    }
+    #firstPage section:last-of-type{
+        display: none;
+    }
+    #thirdPage{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        z-index: 5;
+    }
+    #btn3{
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        outline: none;
+        border: 1px solid rgba(24, 44, 63, 0.39);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: rgba(24, 44, 63, 0.39);
+    }
+    .main_products{
+        width: 35%;
+    }
+    .dots{
+        width: 55px;
+    }
+    #secondPage section:first-of-type{
+        display: inline-block;   
+    }
+    #secondPage section:nth-child(4), #secondPage section:last-of-type{
+        display: none;
+    }
+    #secondPage section:nth-of-type(n){
+        width: 35%;
+    }
+    #secondPage{
+        width: 45%;
+    }
+    .heading{
+        margin-left: 10%;
+    }
+    .wrapper_head{
+        padding-bottom: 100px;
+    }
+    .social_net_icons{
+        width: 155px;
+    }
+    .copyright p{
+        padding-top: 9px;
+    }
+    .dots{
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width: 580px){
+    .heading{
+        margin-left: 2%;
+    }
+    .wrapper_head{
+        background-image: url(images/200440-Soft-Coolers-Campaign-Mobile-Hero-375x525.gif);
+        padding-bottom: 100%;
+    }
+    .dots{
+        margin-left: 45%;
+    }
+    .main_products h2{
+        font-size: 75%;
+        margin-right: 5px;
+    }
+    .li_elem{
+        padding-left: 40px;
+    }
+    .li_heading{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 540px){
+    .copyright{
+        flex-direction: column;
+    }
+    .copyright p{
+        margin-bottom: 7px;
+    }
+    .wrapper_orders div:nth-of-type(n) {
+        width: 100%;
+        height: 350px;
+        font-size: 90%;
+    }
+    .first_section h1 {
+        font-size: 210%;
+    }
+    .wrapper_orders h1 {
+        font-size: 190%;  
+    }
+    .second_section, .third_section, .fourth_section, .fifth_section {
+        padding-top: 115px; 
+    }
+    .heading{
+        font-size: 150%;
+    }
+    #slider_main_products{
+        margin-bottom: 50px;
+    }
+    .dots{
+        margin-left: 45%;
+    }
+}
+@media screen and (max-width:420px){
+    .search_cart{
+        display: none;
+    }
+    .list_sub_wrapper{
+        width: 60%;
+    }
+    .sub_yeti, .sub_custom, .sub_gear, .sub_drinkware, .sub_bags, .sub_coolers {
+        margin-left: -70%;
+    }
+}
