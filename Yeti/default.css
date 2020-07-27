@@ -1,0 +1,603 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper_head{
+    width: 100%;
+    margin: 0 auto;
+}
+#header_top{
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+}
+#header_top a{
+    color: white;
+}
+.left_part{
+    display: flex;
+    padding-left: 35px;
+}
+.flag_icon{
+    width: 135px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.37);
+}
+.list_sub_wrapper span{
+    display: none;
+}
+.ground_shipping{
+    padding-top: 12px;
+    margin-left: 25px;
+}
+.ground_shipping span a{
+    font-weight: 700;
+    color: rgb(211, 211, 211);
+}
+.usa_flag{
+    width: 20px;
+}
+.right_part{
+    width: 225px;
+    padding-right: 35px;
+}
+.addition{
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.addition i:first-of-type:hover{
+    color: rgb(175, 162, 88);
+}
+.addition a:last-of-type:hover{
+    color: rgb(175, 162, 88);
+}
+.logo{
+    width: 150px;
+}
+#wrapper_menu_container_hidden{
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 31px;
+    padding-top: 18px;
+    margin: 0 auto;
+    display: none;
+}
+#wrapper_menu_container{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    padding-right: 35px;
+    padding-left: 31px;
+    padding-top: 18px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sticky{
+    background-color: #292d31;
+    opacity: .2;
+    padding-bottom: 5px;
+    top: 0px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.sticky:hover{
+    opacity: 1;
+}
+.hidden{
+    display: none;
+}
+.list_container{
+    width: 85%;
+    padding-top: 14px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.list_sub_wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.search_cart{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.search_cart i{
+    margin-left: 10px;
+}
+.cart_square{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 2px solid rgb(175, 162, 88);
+}
+.li_coolers a, .li_custom a, .li_gear a, .li_drinkware a, .li_bags a, .li_yeti a{
+    color: white;
+}
+.li_coolers, .li_custom, .li_gear, .li_drinkware, .li_bags, .li_yeti, .li_sales, .li_arrivals{
+    height: 50px;
+    font-size: 90%;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.li_coolers:hover, .li_custom:hover, .li_gear:hover, .li_drinkware:hover, .li_bags:hover, .li_yeti:hover, .li_sales:hover, .li_arrivals:hover{
+    border-bottom: 5.5px solid white;
+}
+.li{
+    position: relative;
+}
+.li_coolers:hover .sub_coolers, .li_custom:hover .sub_custom, .li_gear:hover .sub_gear, .li_drinkware:hover .sub_drinkware, .li_bags:hover .sub_bags, .li_yeti:hover .sub_yeti{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_yeti, .sub_custom, .sub_gear, .sub_drinkware, .sub_bags, .sub_coolers{
+    position: absolute;
+    display: none;
+    width: 103%;
+    margin-left: -17%;
+    margin-top: 25px;
+    padding-left: 16%;
+    padding-right: 20%;
+    padding-top: 50px;
+    background-color: rgb(24, 44, 63);
+    padding-bottom: 7px;
+}
+.sub_coolers{
+    margin-left: -19%;
+}
+.sub_drinkware{
+    width: 103%;
+    margin-left: -27%;
+    padding-left: 25%;
+}
+.sub_bags{
+    width: 103%;
+    margin-left: -34%;
+    padding-left: 34%;
+}
+.sub_gear{
+    width: 115%;
+    margin-left: -45%;
+    padding-left: 19.7%;
+}
+.sub_custom{
+    width: 121%;
+    margin-left: -56%;
+    padding-left: 23.3%;
+}
+.sub_yeti{
+    width: 121%;
+    margin-left: -67%;
+    padding-left: 40%;
+    padding-left: 26%;
+}
+.sub_yeti a, .sub_custom a, .sub_gear a, .sub_drinkware a, .sub_bags a, .sub_coolers a{
+    color: white;
+}
+.li_heading{
+    margin-right: 25px;
+}
+.li_heading a{
+    font-size: 115%;
+}
+.li_elem{
+    font-size: 90%;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.87);
+    margin-top: 7px;
+}
+.menu_img_section h3{
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.menu_img{
+    width: 240px;
+}
+.li_elem:hover, .li_heading a:hover{
+    color: rgb(175, 162, 88);
+}
+.wrapper_gif{
+    width: 100%;
+    padding-top: 85px;     
+    padding-left: 35px; 
+    padding-right: 35px;
+}
+.gif_container{
+    width: 100%;
+}
+.gif_main{
+    width: 100%;
+}
+
+
+.wrapper_main_slider{
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    margin-bottom: 65px;
+    font-family: 'Arvo', serif;
+    overflow: hidden;
+}
+.heading{
+    margin-left: 40%;
+    font-size: 190%;
+    font-weight: 600;
+}
+#slider_main_products{
+    width: 200%;
+    padding-left: 30px;
+    margin-bottom: 102px;
+    display: flex;
+    overflow: hidden;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+}
+#firstPage, #secondPage{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 20px;
+    padding-right: 40px;
+    font-size: 95%;
+}
+#secondPage section:first-of-type{
+    display: none;   
+}
+#thirdPage{
+    display: none;
+}
+#btn3{
+    display: none;
+}
+.main_products{
+    width: 25%;
+    text-align: center;
+    margin-top: 40px;
+}
+.main_products a{
+    color: rgb(15, 34, 51);
+}
+.main_products h2{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 110%;
+}
+.dots{
+    margin-left: 49%;
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.product_img{
+    width: 100%;
+}
+#btn1, #btn2{
+    width: 12px;
+    height: 12px;
+    outline: none;
+    border: 1px solid rgba(24, 44, 63, 0.39);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(24, 44, 63, 0.39);
+} 
+#btn1{
+    border: 1px solid rgba(24, 44, 63);
+    background-color: rgba(24, 44, 63);
+}
+.order_landing_sections{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.wrapper_orders{
+    width: 99%;
+    padding-left: 1%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.wrapper_orders h1{
+    font-size: 220%;
+    font-family: 'Arvo', serif;
+}
+.wrapper_orders h4{
+    font-size: 110%;
+    font-weight: 400;   
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper_orders div:nth-of-type(n){
+    width: 49.1%;
+    margin-bottom: 40px;
+}
+.wrapper_orders div:first-of-type{
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper_orders section:nth-of-type(n){
+    width: 100%;
+    text-align: center;
+    filter: brightness(87%);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-filter: brightness(87%);
+}
+.first_section{
+    width: 100%;
+    padding-top: 19%; 
+    padding-bottom: 19%;  
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Full-MiddleGrid-Camino-Desktop-1330x550.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    filter: brightness(87%);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-filter: brightness(87%);
+}
+.first_section h1{
+    font-size: 290%;
+    font-family: 'Arvo', serif;
+    margin-bottom: 20px;
+}
+.first_section h4{
+    font-size: 125%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.parent_f:hover .first_section{
+   background-size: 103% 103%;
+   background-position: center;
+   filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+.second_section{
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Half-MiddleGrid-Bottles-Desktop-650x360.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 423px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 155px;
+}
+.parent_s:hover .second_section{
+    background-size: 103% 103%;
+    background-position: center;
+    filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+.third_section{
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Half-MiddleGrid-SoftCoolers-Desktop-650x360.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 423px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 155px;
+}
+
+.parent_t:hover .third_section{
+    background-size: 103% 103%;
+    background-position: center;
+    filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+.fourth_section{
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Half-MiddleGrid-BottleSling-Desktop-650x360.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 423px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 155px;
+}
+.parent_fo:hover .fourth_section{
+    background-size: 103% 103%;
+    background-position: center;
+   filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+.fifth_section{
+    background-image: url(images/200437-Panga-Dry-Bags-Homepage-Half-MiddleGrid-Lowlands-Desktop-650x360.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 423px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 155px;
+}
+.parent_fif:hover .fifth_section{
+    background-size: 103% 103%;
+    background-position: center;
+   filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+.history_container{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 30px;  
+    padding-bottom: 30px; 
+}
+.wrapper_bottom{
+    width: 60%;
+    margin: 0 auto;
+    margin: 0 auto; 
+}
+.history{
+    width: 100%;
+    font-size: 100%;
+    font-weight: 400;   
+    font-family: 'Oswald', sans-serif;
+    color: rgba(24, 44, 63, 0.856);
+    text-align: center;
+    letter-spacing: 1px;
+}
+.history p:first-child{
+    margin-bottom: 25px;    
+} 
+footer{
+    padding-top:  50px;
+    background-color: #292d31;
+}
+.wrapper_footer{
+    width: 60%;
+    margin: 0 auto;
+}
+.footer_container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.footer_li_elem {
+    margin-bottom: 10px;
+}
+.footer_li_elem a{
+    font-size: 90%;
+    font-weight: 400;
+    color: white;
+}
+.footer_sub_ul{
+    margin-top: 20px;
+}
+.footer_menu{
+    width: 100%;
+    padding-top: 75px;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_main_li{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+}
+.sign_up{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sign_up h2{
+    font-family: 'Arvo', serif;
+    font-size: 190%;
+    color: white; 
+    font-weight: 600;  
+    margin-bottom: 10px;  
+} 
+.sign_up p{
+    font-size: 90%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #a89968;
+}
+#sign_up_form{
+    width: 35%; 
+}
+#email{
+    width: 100%;
+    height: 67px;
+    padding-left: 20px;   
+    border: inset 2px grey;
+}
+#email::placeholder{
+    font-size: 145%;
+    font-weight: 500;
+    color: #a89968;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.form_wrapper{
+    position: relative;
+}
+#submit_btn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 50px;
+    height: 55px;
+    outline: none;
+    background-color: #292d31;
+    border: none;
+}
+.fa-arrow-right{
+    font-size: 190%;
+    color: #a89968;
+}
+.copyright{
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 90%;
+}
+.social_net_icons{
+    width: 20%;
+    font-size: 150%;  
+    display: flex; 
+    justify-content: space-between; 
+}
+.social_net_icons a{
+    color: white; 
+} 
+.chevron{
+    display: none;
+}
+#menu_bars{
+    display: none;
+}
+#supportI, #companyI, #storesI, #privacyI{
+    display: none;
+}
